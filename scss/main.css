@@ -10,18 +10,19 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
+  background: linear-gradient(to right, rgba(147, 136, 129, 0.7), rgba(147, 136, 129, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
   background-size: cover;
 }
 .home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgba(64, 64, 56, 0.7098039216);
 }
 .home__name--last {
-  color: #cd8648;
+  color: rgba(64, 64, 56, 0.7098039216);
   font-weight: 700;
+  font-family: "Indie Flower", cursive;
 }
 
 .menu-btn {
@@ -86,12 +87,12 @@
 }
 .nav .menu-nav {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: space-around;
+  height: 20vh;
   overflow: hidden;
-  background: #272727;
+  background: rgba(147, 136, 129, 0.7647058824);
   list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
@@ -108,7 +109,7 @@
   transform: translateX(0);
 }
 .nav .menu-nav__item.active > a {
-  color: #cd8648;
+  color: rgba(64, 64, 56, 0.7098039216);
 }
 .nav .menu-nav__link {
   display: inline-block;
@@ -119,51 +120,55 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav__link:hover {
-  color: #cd8648;
+  color: rgba(64, 64, 56, 0.7098039216);
 }
 
 .about {
   padding-bottom: 2rem;
 }
 .about__bio-video {
-  height: 50vh;
+  height: 80vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("https://player.vimeo.com/external/538582175.sd.mp4?s=56f3eb8f568114d37024a460f2890e72af13fc90&profile_id=164&oauth2_token_id=57447761") center top;
+  position: relative;
+  background: linear-gradient(to right, rgba(147, 136, 129, 0.5), rgba(147, 136, 129, 0)), url("https://images.pexels.com/photos/1931154/pexels-photo-1931154.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .about__bio-video p {
   margin-bottom: 2rem;
 }
 .about__bio {
   width: 80%;
-  text-align: center;
+  text-align: justify;
 }
 .about__bio .text-secondary {
   padding-bottom: 1rem;
+  text-align: center;
 }
 .about .about__img {
+  position: absolute;
+  z-index: 9;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
-  margin-left: 45vw;
-  margin-top: 5vh;
+  width: 350px;
+  top: 60vh;
+  margin-left: 40vw;
 }
 .about .jobs {
   width: 60vw;
-  margin: 2rem auto 0 auto;
+  margin: 10rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
 .about .jobs__job {
-  background: #414141;
+  background: rgba(171, 162, 156, 0.7647058824);
   padding: 0.5rem;
-  border-bottom: 5px solid #cd8648;
+  border-bottom: 5px solid rgba(64, 64, 56, 0.7098039216);
 }
 .about .jobs__job h2,
 .about .jobs__job h3 {
@@ -176,17 +181,14 @@
   display: flex;
   flex-direction: column;
 }
-.about footer {
-  transform: rotate(90deg) translate(-3rem, -5rem);
-}
 
 .projects {
   padding-bottom: 2rem;
 }
 .projects__bio-image {
-  height: 30vh;
+  height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(147, 136, 129, 0.7), rgba(147, 136, 129, 0)), url("https://images.pexels.com/photos/1903964/pexels-photo-1903964.jpeg?auto=compress&cs=tinysrgb&w=600") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -198,7 +200,8 @@
   margin-bottom: 2rem;
 }
 .projects__items {
-  width: 30vw;
+  width: 40vw;
+  height: 120vh;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -206,7 +209,7 @@
 }
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #cd8648;
+  border-bottom: 5px solid rgba(64, 64, 56, 0.7098039216);
   overflow: hidden;
   cursor: pointer;
 }
@@ -220,7 +223,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #cd8648;
+  background: rgba(64, 64, 56, 0.7098039216);
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -244,11 +247,11 @@
 }
 .projects__btn {
   opacity: 0;
-  color: set-text-color(#cd8648);
+  color: set-text-color(rgba(64, 64, 56, 0.7098039216));
   transition: all 0.5s ease-in-out;
 }
 .projects__btn:hover {
-  color: set-text-color(set-text-color(#cd8648));
+  color: set-text-color(set-text-color(rgba(64, 64, 56, 0.7098039216)));
 }
 .projects .social-icons {
   display: flex;
@@ -262,7 +265,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(147, 136, 129, 0.9), rgba(147, 136, 129, 0.3)), url("https://images.pexels.com/photos/1903963/pexels-photo-1903963.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
   background-size: cover;
 }
 .contact h2 {
@@ -281,10 +284,10 @@
 }
 
 body {
-  background: #272727;
+  background: rgba(147, 136, 129, 0.7647058824);
   color: white;
   height: 100vh;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Public Sans", sans-serif;
   line-height: 1;
 }
 
@@ -300,7 +303,7 @@ a {
 }
 
 .text-secondary {
-  color: #cd8648;
+  color: rgba(64, 64, 56, 0.7098039216);
 }
 
 header {
@@ -324,7 +327,7 @@ main .social-icons a {
   transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #cd8648;
+  color: rgba(64, 64, 56, 0.7098039216);
 }
 
 footer {

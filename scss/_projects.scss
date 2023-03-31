@@ -2,14 +2,15 @@
   padding-bottom: 2rem;
 
   &__bio-image {
-    height: 30vh;
+    height: 50vh;
     width: 100%;
     background: linear-gradient(
         to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
+        rgba($primary-color, 0.7),
+        rgba($primary-color, 0)
       ),
-      url("../img/model-1.jpg") center top;
+      url("https://images.pexels.com/photos/1903964/pexels-photo-1903964.jpeg?auto=compress&cs=tinysrgb&w=600")
+        center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -23,7 +24,8 @@
   }
 
   &__items {
-    width: 30vw;
+    width: 40vw;
+    height: 120vh;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
