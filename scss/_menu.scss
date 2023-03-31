@@ -74,7 +74,7 @@
     overflow: hidden;
     background: $primary-color;
     list-style-type: none;
-    padding-right: 1rem;
+
     transform: translateY(-100%);
     @include transition-ease;
 
@@ -97,7 +97,7 @@
 
     &__link {
       display: inline-block;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-transform: uppercase;
       padding: 2rem 0;
       font-weight: 300;
