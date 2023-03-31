@@ -4,14 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Public+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../scss/main.css" />
-    <title>Karla Gussnecker</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+    <title>Contact</title>
   </head>
   <body>
     <header>
@@ -21,7 +15,7 @@
 
       <nav class="nav">
         <ul class="menu-nav">
-          <li class="menu-nav__item active">
+          <li class="menu-nav__item">
             <a href="index.html" class="menu-nav__link"> Home </a>
           </li>
           <li class="menu-nav__item">
@@ -30,7 +24,7 @@
           <li class="menu-nav__item">
             <a href="projects.html" class="menu-nav__link"> My Projects </a>
           </li>
-          <li class="menu-nav__item">
+          <li class="menu-nav__item active">
             <a href="contact.html" class="menu-nav__link"> Contact Me </a>
           </li>
         </ul>
@@ -38,11 +32,23 @@
     </header>
 
     <main>
-      <section class="home">
-        <h1 class="home__name">
-          <span class="home__name--last">Karla Gussnecker</span>
-        </h1>
-        <h2>Front-end Developer & Designer</h2>
+      <section class="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact__list">
+          <div class="contact__email">
+            <i class="fas fa-envelope"></i> Email
+            <div class="text-secondary">karla.gussnecker@gmail.com</div>
+          </div>
+          <div class="contact__phone">
+            <i class="fas fa-mobile-alt"></i> Phone
+            <div class="text-secondary">+34 651 176 625</div>
+          </div>
+          <div class="contact__address">
+            <i class="fas fa-marker-alt"></i> Address
+            <div class="text-secondary">Barcelona, Spain</div>
+          </div>
+        </div>
 
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/karla-gussnecker-2886ba1a0/">
@@ -52,12 +58,10 @@
             <i class="fab fa-github fa-2x"></i>
           </a>
         </div>
-
-        <footer>Designed with <i class="fa-regular fa-heart"></i></footer>
       </section>
     </main>
 
-    <script src="https://kit.fontawesome.com/d19b245ab6.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
