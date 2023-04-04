@@ -87,10 +87,10 @@
 }
 .nav .menu-nav {
   display: flex;
-  flex-flow: row;
+  flex-flow: column wrap;
   align-items: center;
-  justify-content: space-around;
-  height: 20vh;
+  justify-content: center;
+  height: 30vh;
   overflow: hidden;
   background: rgba(147, 136, 129, 0.7647058824);
   list-style-type: none;
@@ -115,7 +115,6 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   padding: 2rem 0;
-  font-weight: 300;
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav__link:hover {
@@ -285,21 +284,18 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(to right, rgba(147, 136, 129, 0.5), rgba(147, 136, 129, 0)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
+    background: linear-gradient(to right, rgba(147, 136, 129, 0.9), rgba(147, 136, 129, 0.2)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
     background-size: cover;
     background-position: top;
   }
   .home__name {
     width: 30vw;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-top: -20%;
   }
   .home__title {
     width: 30vw;
     line-height: 5vh;
-  }
-  .menu-nav__link {
-    width: 15vw;
-    line-height: 30px;
   }
   .about__bio {
     font-size: 1.5rem;
@@ -316,19 +312,6 @@
   }
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 1024px) {
-  .projects__items {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .contact__list {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media screen and (max-width: 1600px) {
-  .projects__bio-image {
-    height: 50vh;
   }
 }
 body {

@@ -5,8 +5,8 @@
     text-align: center;
     background: linear-gradient(
         to right,
-        rgba($primary-color, 0.5),
-        rgba($primary-color, 0)
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.2)
       ),
       url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
 
@@ -15,7 +15,8 @@
 
     &__name {
       width: 30vw;
-      font-size: 2.5rem;
+      font-size: 2rem;
+      margin-top: -20%;
     }
     &__title {
       width: 30vw;
@@ -23,12 +24,6 @@
     }
   }
 
-  .menu-nav {
-    &__link {
-      width: 15vw;
-      line-height: 30px;
-    }
-  }
   .about__bio {
     font-size: 1.5rem;
     padding-top: 40vh;
@@ -48,22 +43,5 @@
 
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@include media-lg {
-  .projects {
-    &__items {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  .contact__list {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@include media-xl {
-  .projects__bio-image {
-    height: 50vh;
   }
 }

@@ -16,13 +16,3 @@ $secondary-color: #404038b5;
     @content;
   }
 }
-@mixin media-lg {
-  @media screen and (max-width: 1024px) {
-    @content;
-  }
-}
-@mixin media-xl {
-  @media screen and (max-width: 1600px) {
-    @content;
-  }
-}
