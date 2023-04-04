@@ -36,8 +36,32 @@
   }
 
   .projects {
+    &__bio-image {
+      background: linear-gradient(
+          to right,
+          rgba($primary-color, 0.5),
+          rgba($primary-color, 0)
+        ),
+        url("https://images.pexels.com/photos/4466176/pexels-photo-4466176.jpeg?auto=compress&cs=tinysrgb&w=800")
+          center top;
+      background-size: cover;
+      height: 100%;
+    }
+    &__items {
+      margin-top: 20vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__item {
+      width: 65%;
+      height: auto;
+      margin-bottom: 10%;
+    }
     .text-secondary {
       font-size: 3rem;
+      padding-top: 30%;
     }
   }
 

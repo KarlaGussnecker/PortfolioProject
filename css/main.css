@@ -10,7 +10,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(147, 136, 129, 0.7), rgba(147, 136, 129, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
+  background: linear-gradient(to right, rgba(168, 164, 162, 0.7), rgba(168, 164, 162, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
   background-size: cover;
 }
 .home__name {
@@ -92,7 +92,7 @@
   justify-content: center;
   height: 30vh;
   overflow: hidden;
-  background: rgba(147, 136, 129, 0.7647058824);
+  background: rgba(168, 164, 162, 0.7647058824);
   list-style-type: none;
   transform: translateY(-100%);
   transition: all 0.5s ease-in-out;
@@ -128,7 +128,7 @@
   height: 80vh;
   width: 100%;
   position: relative;
-  background: linear-gradient(to right, rgba(147, 136, 129, 0.5), rgba(147, 136, 129, 0)), url("https://images.pexels.com/photos/1931154/pexels-photo-1931154.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
+  background: linear-gradient(to right, rgba(168, 164, 162, 0.5), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/1931154/pexels-photo-1931154.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@
   grid-gap: 2rem;
 }
 .about .jobs__job {
-  background: rgba(171, 162, 156, 0.7647058824);
+  background: rgba(193, 190, 188, 0.7647058824);
   padding: 0.5rem;
   border-bottom: 5px solid rgba(64, 64, 56, 0.7098039216);
 }
@@ -183,7 +183,7 @@
 .projects__bio-image {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(147, 136, 129, 0.4), rgba(147, 136, 129, 0.2)), url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
+  background: linear-gradient(to right, rgba(168, 164, 162, 0.7), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/11650184/pexels-photo-11650184.jpeg?auto=compress&cs=tinysrgb&w=800") center top;
   background-size: cover;
 }
 .projects__bio-image .text-secondary {
@@ -193,16 +193,16 @@
   padding-top: 10%;
 }
 .projects__items {
-  margin-top: 40vh;
+  margin-top: -5vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .projects__item {
   position: relative;
-  width: 20%;
-  height: 30%;
-  border: 5px solid #ddd;
+  width: 25%;
+  height: 25%;
+  border: 5px SOLID #ddd;
   border-radius: 4px;
   border-bottom: 5px solid rgba(64, 64, 56, 0.7098039216);
   overflow: hidden;
@@ -251,7 +251,7 @@
 }
 .projects .social-icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .contact {
@@ -261,7 +261,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(147, 136, 129, 0.9), rgba(147, 136, 129, 0.3)), url("https://images.pexels.com/photos/1903963/pexels-photo-1903963.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
+  background: linear-gradient(to right, rgba(168, 164, 162, 0.9), rgba(168, 164, 162, 0.3)), url("https://images.pexels.com/photos/1903963/pexels-photo-1903963.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
   background-size: cover;
 }
 .contact h2 {
@@ -284,7 +284,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(to right, rgba(147, 136, 129, 0.9), rgba(147, 136, 129, 0.2)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
+    background: linear-gradient(to right, rgba(168, 164, 162, 0.9), rgba(168, 164, 162, 0.2)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
     background-size: cover;
     background-position: top;
   }
@@ -307,15 +307,32 @@
     top: 100vh;
     margin-right: 40vw;
   }
+  .projects__bio-image {
+    background: linear-gradient(to right, rgba(168, 164, 162, 0.5), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/4466176/pexels-photo-4466176.jpeg?auto=compress&cs=tinysrgb&w=800") center top;
+    background-size: cover;
+    height: 100%;
+  }
+  .projects__items {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects__item {
+    width: 65%;
+    height: auto;
+    margin-bottom: 10%;
+  }
   .projects .text-secondary {
     font-size: 3rem;
+    padding-top: 30%;
   }
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 body {
-  background: rgba(147, 136, 129, 0.7647058824);
+  background: rgba(168, 164, 162, 0.7647058824);
   color: white;
   height: 100vh;
   font-family: "Public Sans", sans-serif;
