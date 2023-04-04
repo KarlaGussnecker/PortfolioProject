@@ -1,8 +1,43 @@
 @include media-md {
+  .home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(
+        to right,
+        rgba($primary-color, 0.5),
+        rgba($primary-color, 0)
+      ),
+      url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
+
+    background-size: cover;
+    background-position: top;
+
+    &__name {
+      width: 30vw;
+      font-size: 2.5rem;
+    }
+    &__title {
+      width: 30vw;
+      line-height: 5vh;
+    }
+  }
+
+  .menu-nav {
+    &__link {
+      width: 15vw;
+      line-height: 30px;
+    }
+  }
   .about__bio {
     font-size: 1.5rem;
+    padding-top: 40vh;
   }
   .about__img {
+    position: relative;
+    width: 450px;
+    top: 100vh;
+    margin-right: 40vw;
   }
 
   .projects {
