@@ -285,7 +285,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(to right, rgba(168, 164, 162, 0.2), rgba(168, 164, 162, 0)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
+    background: linear-gradient(to right, rgba(168, 164, 162, 0.7), rgba(168, 164, 162, 0.3)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
     background-size: 150%;
     background-position: top;
   }
