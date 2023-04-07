@@ -5,16 +5,16 @@
     text-align: center;
     background: linear-gradient(
         to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.2)
+        rgba($primary-color, 0.2),
+        rgba($primary-color, 0)
       ),
       url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
 
-    background-size: cover;
+    background-size: 150%;
     background-position: top;
 
     &__name {
-      width: 30vw;
+      width: 40vw;
       font-size: 2rem;
       margin-top: -20%;
     }
@@ -39,10 +39,10 @@
     &__bio-image {
       background: linear-gradient(
           to right,
-          rgba($primary-color, 0.5),
+          rgba($primary-color, 0.3),
           rgba($primary-color, 0)
         ),
-        url("https://images.pexels.com/photos/4466176/pexels-photo-4466176.jpeg?auto=compress&cs=tinysrgb&w=800")
+        url("https://images.pexels.com/photos/4466420/pexels-photo-4466420.jpeg?auto=compress&cs=tinysrgb&w=800")
           center top;
       background-size: cover;
       height: 100%;

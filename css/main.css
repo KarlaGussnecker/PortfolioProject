@@ -17,7 +17,7 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid rgba(64, 64, 56, 0.7098039216);
+  border-bottom: 4px solid rgba(64, 64, 56, 0.7098039216);
 }
 .home__name--last {
   color: rgba(64, 64, 56, 0.7098039216);
@@ -33,7 +33,7 @@
   height: 20px;
   width: 28px;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .menu-btn__burger {
   position: absolute;
@@ -42,7 +42,7 @@
   width: 28px;
   height: 3px;
   background: white;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .menu-btn__burger::before {
   content: "";
@@ -51,7 +51,7 @@
   width: 28px;
   height: 3px;
   background: white;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .menu-btn__burger::after {
   content: "";
@@ -60,7 +60,7 @@
   width: 20px;
   height: 3px;
   background: white;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .menu-btn__burger.open {
   transform: rotate(720deg);
@@ -95,14 +95,14 @@
   background: rgba(168, 164, 162, 0.7647058824);
   list-style-type: none;
   transform: translateY(-100%);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .nav .menu-nav.open {
   transform: translateY(0);
 }
 .nav .menu-nav__item {
   transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .nav .menu-nav__item.open {
   transform: translateX(0);
@@ -115,7 +115,7 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   padding: 2rem 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .nav .menu-nav__link:hover {
   color: rgba(64, 64, 56, 0.7098039216);
@@ -183,10 +183,11 @@
 .projects__bio-image {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(168, 164, 162, 0.7), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/11650184/pexels-photo-11650184.jpeg?auto=compress&cs=tinysrgb&w=800") center top;
+  background: linear-gradient(to right, rgba(168, 164, 162, 0.7), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/68562/pexels-photo-68562.jpeg?auto=compress&cs=tinysrgb&w=800") center top;
   background-size: cover;
 }
 .projects__bio-image .text-secondary {
+  color: white;
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -221,7 +222,7 @@
   width: 100%;
   background: rgba(64, 64, 56, 0.7098039216);
   opacity: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .projects__item:hover::after {
   top: 0;
@@ -244,7 +245,7 @@
 .projects__btn {
   opacity: 0;
   color: set-text-color(rgba(64, 64, 56, 0.7098039216));
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .projects__btn:hover {
   color: set-text-color(set-text-color(rgba(64, 64, 56, 0.7098039216)));
@@ -284,12 +285,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(to right, rgba(168, 164, 162, 0.9), rgba(168, 164, 162, 0.2)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
-    background-size: cover;
+    background: linear-gradient(to right, rgba(168, 164, 162, 0.2), rgba(168, 164, 162, 0)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
+    background-size: 150%;
     background-position: top;
   }
   .home__name {
-    width: 30vw;
+    width: 40vw;
     font-size: 2rem;
     margin-top: -20%;
   }
@@ -308,7 +309,7 @@
     margin-right: 40vw;
   }
   .projects__bio-image {
-    background: linear-gradient(to right, rgba(168, 164, 162, 0.5), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/4466176/pexels-photo-4466176.jpeg?auto=compress&cs=tinysrgb&w=800") center top;
+    background: linear-gradient(to right, rgba(168, 164, 162, 0.3), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/4466420/pexels-photo-4466420.jpeg?auto=compress&cs=tinysrgb&w=800") center top;
     background-size: cover;
     height: 100%;
   }
@@ -372,7 +373,7 @@ main .social-icons {
 }
 main .social-icons a {
   padding: 0.4rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 main .social-icons a:hover {
   color: rgba(64, 64, 56, 0.7098039216);
