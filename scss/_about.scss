@@ -1,22 +1,22 @@
 .about {
   padding-bottom: 2rem;
 
-  &__bio-video {
-    height: 80vh;
+  &__bio-image {
+    height: 50vh;
     width: 100%;
-    position: relative;
     background: linear-gradient(
         to right,
-        rgba($primary-color, 0.5),
-        rgba($primary-color, 0)
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
       ),
-      url("https://images.pexels.com/photos/1931154/pexels-photo-1931154.jpeg?auto=compress&cs=tinysrgb&w=1200")
+      url("https://images.pexels.com/photos/1931154/pexels-photo-1931154.jpeg?auto=compress&cs=tinysrgb&w=1200 ")
         center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+
     p {
       margin-bottom: 2rem;
     }
@@ -24,28 +24,16 @@
 
   &__bio {
     width: 80%;
-    text-align: justify;
+    text-align: center;
 
     .text-secondary {
       padding-bottom: 1rem;
-      text-align: center;
     }
-  }
-
-  .about__img {
-    position: absolute;
-    z-index: 9;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 350px;
-    top: 60vh;
-    margin-left: 40vw;
   }
 
   .jobs {
     width: 60vw;
-    margin: 10rem auto 0 auto;
+    margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;

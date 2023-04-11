@@ -6,21 +6,26 @@
 
 .home {
   height: 100%;
-  padding-top: 40vh;
-  overflow: hidden;
+  top: 0;
+  bottom: 0;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(168, 164, 162, 0.7), rgba(168, 164, 162, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
-  background-size: cover;
+  background: linear-gradient(to right, rgba(168, 164, 162, 0.5), rgba(168, 164, 162, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
+  background-size: 160%;
+  background-position: center;
+}
+.home__title {
+  color: rgba(64, 64, 56, 0.7098039216);
 }
 .home__name {
+  padding-top: 40vh;
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 4px solid rgba(64, 64, 56, 0.7098039216);
 }
 .home__name--last {
-  color: rgba(64, 64, 56, 0.7098039216);
+  color: black;
   font-weight: 700;
   font-family: "Indie Flower", cursive;
 }
@@ -124,41 +129,29 @@
 .about {
   padding-bottom: 2rem;
 }
-.about__bio-video {
-  height: 80vh;
+.about__bio-image {
+  height: 50vh;
   width: 100%;
-  position: relative;
-  background: linear-gradient(to right, rgba(168, 164, 162, 0.5), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/1931154/pexels-photo-1931154.jpeg?auto=compress&cs=tinysrgb&w=1200") center top;
+  background: linear-gradient(to right, rgba(168, 164, 162, 0.9), rgba(168, 164, 162, 0.3)), url("https://images.pexels.com/photos/1931154/pexels-photo-1931154.jpeg?auto=compress&cs=tinysrgb&w=1200 ") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
-.about__bio-video p {
+.about__bio-image p {
   margin-bottom: 2rem;
 }
 .about__bio {
   width: 80%;
-  text-align: justify;
+  text-align: center;
 }
 .about__bio .text-secondary {
   padding-bottom: 1rem;
-  text-align: center;
-}
-.about .about__img {
-  position: absolute;
-  z-index: 9;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 350px;
-  top: 60vh;
-  margin-left: 40vw;
 }
 .about .jobs {
   width: 60vw;
-  margin: 10rem auto 0 auto;
+  margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
@@ -297,16 +290,6 @@
   .home__title {
     width: 30vw;
     line-height: 5vh;
-  }
-  .about__bio {
-    font-size: 1.5rem;
-    padding-top: 40vh;
-  }
-  .about__img {
-    position: relative;
-    width: 450px;
-    top: 100vh;
-    margin-right: 40vw;
   }
   .projects__bio-image {
     background: linear-gradient(to right, rgba(168, 164, 162, 0.3), rgba(168, 164, 162, 0)), url("https://images.pexels.com/photos/4466420/pexels-photo-4466420.jpeg?auto=compress&cs=tinysrgb&w=800") center top;
