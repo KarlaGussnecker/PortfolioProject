@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
 @import "config";
 @import "home";
 @import "menu";
@@ -10,7 +11,7 @@ body {
   background: $primary-color;
   color: white;
   height: 100vh;
-  font-family: "Public Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 1;
 }
 
@@ -27,6 +28,10 @@ a {
 
 .text-secondary {
   color: $secondary-color;
+}
+
+.text-contact {
+  color: #afb700;
 }
 
 header {

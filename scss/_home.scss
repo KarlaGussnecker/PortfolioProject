@@ -14,21 +14,9 @@
   background-size: 160%;
   background-position: center;
 
-  &__title {
-    color: $secondary-color;
-  }
-
-  &__name {
-    padding-top: 40vh;
-    font-size: 5rem;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 4px solid $secondary-color;
-
-    &--last {
-      color: black;
-      font-weight: 700;
-      font-family: "Indie Flower", cursive;
-    }
+  &__logo {
+    width: 40%;
+    align-items: center;
+    padding-top: 25vh;
   }
 }

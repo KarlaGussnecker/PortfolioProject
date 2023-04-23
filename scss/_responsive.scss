@@ -22,24 +22,23 @@
       width: 30vw;
       line-height: 5vh;
     }
+    &__logo {
+      width: 80vw;
+      align-items: center;
+      padding-top: 40vh;
+    }
   }
 
   .about {
-  }
-  .about__bio {
-  }
-  .about__img {
+    &__bio-image {
+      height: 80vh;
+      width: 100%;
+      margin: 0;
+    }
   }
 
   .projects {
     &__bio-image {
-      background: linear-gradient(
-          to right,
-          rgba($primary-color, 0.3),
-          rgba($primary-color, 0)
-        ),
-        url("https://images.pexels.com/photos/4466420/pexels-photo-4466420.jpeg?auto=compress&cs=tinysrgb&w=800")
-          center top;
       background-size: cover;
       height: 100%;
     }
@@ -62,6 +61,5 @@
   }
 
   .contact__list {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
