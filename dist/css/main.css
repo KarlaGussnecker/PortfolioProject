@@ -11,7 +11,7 @@
   bottom: 0;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(188, 187, 184, 0.5), rgba(188, 187, 184, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
+  background: linear-gradient(to right, rgba(188, 187, 184, 0.3), rgba(188, 187, 184, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
   background-size: 160%;
   background-position: center;
 }
