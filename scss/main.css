@@ -143,34 +143,34 @@
 .about__bio .text-secondary {
   padding-bottom: 1rem;
 }
-.about .jobs {
+.about .experience {
   width: 60vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
-.about .jobs__job {
+.about .experience__item {
   background: rgba(213, 212, 210, 0.5843137255);
   padding: 0.5rem;
   border-bottom: 5px solid #edff00;
 }
-.about .jobs__job h2 {
+.about .experience__item h2 {
   text-align: center;
 }
-.about .jobs__job h2,
-.about .jobs__job h3 {
+.about .experience__item h2,
+.about .experience__item h3 {
   margin: 0.5rem 0;
 }
-.about .jobs__job h6 {
+.about .experience__item h6 {
   margin: 0.3rem 0;
 }
-.about .jobs__job-skills {
+.about .experience__item-skills {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.about .jobs__job-skills li {
+.about .experience__item-skills li {
   list-style: circle;
 }
 .about .social-icons {
@@ -305,9 +305,15 @@
     padding-top: 40vh;
   }
   .about__bio-image {
-    height: 60vh;
+    height: 40vh;
     width: 100%;
     margin: 0;
+  }
+  .about__bio {
+    display: none;
+  }
+  .experience__item-mobile h2 {
+    text-align: center;
   }
   .projects__bio-image {
     background-size: cover;

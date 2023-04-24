@@ -31,9 +31,19 @@
 
   .about {
     &__bio-image {
-      height: 60vh;
+      height: 40vh;
       width: 100%;
       margin: 0;
+    }
+    &__bio {
+      display: none;
+    }
+  }
+  .experience {
+    &__item-mobile {
+      h2 {
+        text-align: center;
+      }
     }
   }
 

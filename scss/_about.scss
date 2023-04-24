@@ -34,14 +34,14 @@
     }
   }
 
-  .jobs {
+  .experience {
     width: 60vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
 
-    &__job {
+    &__item {
       background: lighten($primary-color, 10%);
       padding: 0.5rem;
       border-bottom: 5px solid $secondary-color;
@@ -57,13 +57,15 @@
         margin: 0.3rem 0;
       }
     }
-    &__job-skills {
+    &__item-skills {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       li {
         list-style: circle;
       }
+    }
+    &__item-mobile {
     }
   }
 
