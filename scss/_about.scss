@@ -10,8 +10,8 @@
 
     background: linear-gradient(
         to right,
-        rgba($primary-color, 0.4),
-        rgba($primary-color, 0.1)
+        rgba($primary-color, 0.5),
+        rgba($primary-color, 0.2)
       ),
       url("/images/IMG_3918.jpeg") center top;
     background-size: cover;
@@ -45,6 +45,9 @@
       background: lighten($primary-color, 10%);
       padding: 0.5rem;
       border-bottom: 5px solid $secondary-color;
+      h2 {
+        text-align: center;
+      }
 
       h2,
       h3 {
@@ -53,6 +56,11 @@
       h6 {
         margin: 0.3rem 0;
       }
+    }
+    &__job-skills {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
     }
   }
 
