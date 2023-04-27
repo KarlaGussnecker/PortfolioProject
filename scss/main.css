@@ -11,9 +11,7 @@
   bottom: 0;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(188, 187, 184, 0.3), rgba(188, 187, 184, 0)), url("https://player.vimeo.com/external/439043159.sd.mp4?s=575e15e3de97aba7eb6cdaf7a96d24f7506e0dc8&profile_id=164&oauth2_token_id=57447761");
-  background-size: 160%;
-  background-position: center;
+  background: linear-gradient(to right, rgba(188, 187, 184, 0.4), rgba(188, 187, 184, 0));
 }
 .home__logo {
   width: 40%;
@@ -263,8 +261,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(188, 187, 184, 0.9), rgba(188, 187, 184, 0.2)), url("https://player.vimeo.com/external/478644461.sd.mp4?s=2b38cb7c76e64b4a24b544149440d96a119b4d98&profile_id=164&oauth2_token_id=57447761") center top;
-  background-size: cover;
+  background: linear-gradient(to right, rgba(188, 187, 184, 0.9), rgba(188, 187, 184, 0.2));
 }
 .contact h2 {
   font-size: 3rem;
@@ -286,9 +283,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(to right, rgba(188, 187, 184, 0.7), rgba(188, 187, 184, 0.3)), url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
-    background-size: 150%;
-    background-position: top;
   }
   .home__name {
     width: 40vw;
@@ -302,7 +296,7 @@
   .home__logo {
     width: 80vw;
     align-items: center;
-    padding-top: 40vh;
+    padding-top: 35vh;
   }
   .about__bio-image {
     height: 40vh;
@@ -341,6 +335,17 @@ body {
   height: 100vh;
   font-family: "Josefin Sans", sans-serif;
   line-height: 1.3;
+}
+
+video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -2;
 }
 
 h1,

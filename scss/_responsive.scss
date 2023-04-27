@@ -1,17 +1,8 @@
-@include media-md {
+@include media-sm {
   .home {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(
-        to right,
-        rgba($primary-color, 0.7),
-        rgba($primary-color, 0.3)
-      ),
-      url("https://player.vimeo.com/external/494390849.sd.mp4?s=98c1c586f4677d104d2b5288c52d8dd18ea293ef&profile_id=165&oauth2_token_id=57447761");
-
-    background-size: 150%;
-    background-position: top;
 
     &__name {
       width: 40vw;
@@ -25,7 +16,7 @@
     &__logo {
       width: 80vw;
       align-items: center;
-      padding-top: 40vh;
+      padding-top: 35vh;
     }
   }
 
