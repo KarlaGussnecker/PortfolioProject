@@ -287,6 +287,9 @@
     flex-direction: column;
     text-align: center;
   }
+  .home__video {
+    display: none;
+  }
   .home__name {
     width: 40vw;
     font-size: 2rem;

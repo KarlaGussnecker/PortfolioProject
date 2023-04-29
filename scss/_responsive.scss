@@ -4,19 +4,6 @@
     flex-direction: column;
     text-align: center;
 
-    &__video {
-      display: none;
-    }
-
-    &__name {
-      width: 40vw;
-      font-size: 2rem;
-      margin-top: -20%;
-    }
-    &__title {
-      width: 30vw;
-      line-height: 5vh;
-    }
     &__logo {
       width: 80vw;
       align-items: center;
