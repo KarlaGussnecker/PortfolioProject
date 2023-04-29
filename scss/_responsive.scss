@@ -4,6 +4,10 @@
     flex-direction: column;
     text-align: center;
 
+    &__video {
+      display: none;
+    }
+
     &__name {
       width: 40vw;
       font-size: 2rem;
