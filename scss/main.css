@@ -13,6 +13,9 @@
   text-align: center;
   background: linear-gradient(to right, rgba(188, 187, 184, 0.4), rgba(188, 187, 184, 0));
 }
+.home__video {
+  size: 120%;
+}
 .home__logo {
   width: 40%;
   align-items: center;
