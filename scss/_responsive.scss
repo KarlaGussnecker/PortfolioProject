@@ -3,6 +3,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    video {
+      display: none;
+    }
+    background: url("/images/Untitled\ design.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
 
     &__logo {
       width: 80vw;
